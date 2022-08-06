@@ -1,6 +1,6 @@
 services:
   backend:
-    image: jenkinsci/blueocean
+    image: jenkinsci/blueocean:1.25.5
     restart: on-failure
     volumes:
       - jenkins-home:/var/jenkins_home
