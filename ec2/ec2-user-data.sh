@@ -18,3 +18,7 @@ systemctl enable docker.service
 
 # other useful things
 yum install -y git
+
+# install gh cli
+yum-config-manager --add-repo https://cli.github.com/packages/rpm/gh-cli.repo
+yum install gh
