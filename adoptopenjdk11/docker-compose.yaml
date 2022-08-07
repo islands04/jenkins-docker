@@ -1,0 +1,12 @@
+services:
+  backend:
+    image: adoptopenjdk/openjdk11:alpine-slim
+    restart: on-failure
+    #    volumes:
+    #  - jenkins-home:/var/jenkins_home
+    ports:
+      - 50000:50000
+      - 8080:8080 
+        #volumes:
+        #  jenkins-home: {}
+
