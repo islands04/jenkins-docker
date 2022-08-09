@@ -1,4 +1,5 @@
 services:
   backend:
     image: jenkins/ssh-agent:alpine-jdk17
-
+    ports:
+      - 22:22
